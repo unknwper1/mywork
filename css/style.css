@@ -113,6 +113,7 @@
 }
 .study{
     background: var(--dark);
+    padding: 15px 0;
 }
 .study__title{
     color: var(--white);
@@ -131,7 +132,12 @@
     color: var(--white);
     text-align: justify;
     font-weight: 400;
+    width: 500px;
 
+}
+.study img{
+    border-radius: 20px;
+    height: 435px;
 }
 .study__slider-prev,
 .study__slider-next {
