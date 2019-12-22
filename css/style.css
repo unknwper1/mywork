@@ -1,4 +1,5 @@
 @import"root.css";
+@import"icon.css";
 *{
     margin: 0;
     padding: 0;
@@ -86,7 +87,7 @@
 }
 /* header end */
 .history{
-    background: var(--dark);
+    background: var(--dark-light);
 }
 .history__title{
     color: var(--yellow);
@@ -109,4 +110,47 @@
 }
 .history__title::before{
     margin-left: auto;
+}
+.study{
+    background: var(--dark);
+}
+.study__title{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: var(--m);
+    font-weight: 700;
+}
+.study__title-yellow{
+    color: var(--yellow);
+    margin-bottom: 20px;
+}
+.study__desc{
+    font-size: 18px;
+    font-family: var(--m);
+    color: var(--white);
+    text-align: justify;
+    font-weight: 400;
+
+}
+.study__slider-prev,
+.study__slider-next {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.study__slider-next{
+    left: auto;
+    right: 0;
+}
+.study__slider-icon_color::before{
+    color: var(--yellow);
+}
+.study__slider-icon_color::after{
+    color: #a5a6a6;
 }
