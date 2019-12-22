@@ -3,9 +3,10 @@
 :root{
     --ps:"product-sans";
     --m:"Montserat";
-    --yelow:#ffcb02;
+    --yellow:#ffcb02;
     --dark: #1e2020;
     --dark-light:#282929;
+    --white:#fff;
 
 }
 *,ul,li,a,p,h1,h2,h3,h4,h5,h6{
