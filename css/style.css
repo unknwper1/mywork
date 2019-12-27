@@ -12,6 +12,9 @@
 .header__nav{
     padding: 23px 0;
     background: var(--dark);
+    position: sticky;
+    width: 100%;
+    top: 0;
 }
 .header__menu-link{
     margin-left: 50px;
@@ -128,7 +131,7 @@
 }
 .study__desc{
     font-size: 18px;
-    font-family: var(--m);
+    font-family:'Montserat-regular';
     color: var(--white);
     text-align: justify;
     font-weight: 400;
@@ -159,4 +162,50 @@
 }
 .study__slider-icon_color::after{
     color: #a5a6a6;
+}
+.my_works-links button{
+    background: #fff;
+    border-radius: 15px;
+    font-family: 'Montserat-regular';
+}
+.my_works{
+    background: #282929;
+}
+.my_works-title{
+    color: #d3a90b;
+}
+.my_works-desc{
+    color: white;
+    
+}
+.my_works-title::before,.my_works-title::after{
+    content: '';
+    display: block;
+    max-width: 50px;
+    height: 2px;
+    background: var(--white); 
+}
+.my_works-title::before{
+    margin-left : auto;
+}
+.my_works-linkspage p,h3{
+    color: white;
+
+}
+.nikepage-content{
+    background: #1f2020;
+}
+.nikepage-title{
+    color:#d3a90b;
+}
+.nikepage-button{
+    background: #d3a90b;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 10px;
+}
+.nikepage-button a{
+    color: var(--white);
+    font-family: 'montserat-bold';
 }
