@@ -192,20 +192,31 @@
     color: white;
 
 }
-.nikepage-content{
+.nikepage-content,.silver-content,.orange-content,.toshkent-content,.street-content,.pizzeria-content{
     background: #1f2020;
 }
-.nikepage-title{
+
+.nikepage-title,.silver-title,.orange-title,.toshkent-title,.street-title,.pizzeria-title{
     color:#d3a90b;
 }
-.nikepage-button{
+.nikepage-button,.silver-button,.orange-button,.toshkent-button,.street-button,.pizzeria-button{
     background: #d3a90b;
     color: white;
     border: none;
     border-radius: 15px;
     padding: 8px 10px;
 }
-.nikepage-button a{
+.nikepage-button a,.silver-button a,.orange-button a,.toshkent-button a,.street-button a,.pizzeria-button a{
     color: var(--white);
     font-family: 'montserat-bold';
+}
+.abilities-title{
+    color: #000;
+}
+.abilities-title::before,.abilities-title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 50px;
+    background: #a5a6a6;
 }
