@@ -253,3 +253,20 @@
 .card-header .collapse {
     background: #d3a90b;
 }
+footer{
+    background: #1f2020;
+    height: 200px;
+}
+footer li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+footer li a:hover{
+    color: #d3a90b;
+}
+footer .contacts,footer .contacts a{
+    padding-top: 40px;
+    color: white;
+    font-size: 20px;
+}
