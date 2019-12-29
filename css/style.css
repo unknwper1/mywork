@@ -211,7 +211,7 @@
     font-family: 'montserat-bold';
 }
 .abilities{
-    background: #1f2020;
+    background: #282929;
     padding-top: 60px;
 }
 .abilities-title{
@@ -229,14 +229,27 @@
 .abilities-title::before{
     margin-left: auto;
 }
+.abilities button i{
+    font-size: 25px;
+}
+.abilities button{
+    color: white;
+    font-family: 'Montserat-bold    ';
+    font-size: 20px;
+}
+.abilities button:hover{
+    text-decoration: none;
+    color: white;
+}
 .card-header{
+    background: #1f2020;
+}
+.card-body{
+    color: #fff;
+    font-family: 'Montserat-regular';
+    background: #1f2020;
+    border: 2px solid #d3a90b;
+}
+.card-header .collapse {
     background: #d3a90b;
 }
-.card button{
-    color: #000;
-    font-family: 'Montserat-bold';
-}
-.card{
-    border: 1px solid #d3a90b;
-}
-
