@@ -210,13 +210,33 @@
     color: var(--white);
     font-family: 'montserat-bold';
 }
+.abilities{
+    background: #1f2020;
+    padding-top: 60px;
+}
 .abilities-title{
-    color: #000;
+    color: #d3a90b; 
+
 }
 .abilities-title::before,.abilities-title::after{
     content: "";
     display: block;
     height: 2px;
     width: 50px;
-    background: #a5a6a6;
+    background: #fff;
+    
 }
+.abilities-title::before{
+    margin-left: auto;
+}
+.card-header{
+    background: #d3a90b;
+}
+.card button{
+    color: #000;
+    font-family: 'Montserat-bold';
+}
+.card{
+    border: 1px solid #d3a90b;
+}
+
