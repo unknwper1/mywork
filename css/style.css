@@ -188,27 +188,51 @@
 .my_works-title::before{
     margin-left : auto;
 }
-.my_works-linkspage p,h3{
-    color: white;
-
+.nav-tabs{
+    border: none;
 }
-.nikepage-content,.silver-content,.orange-content,.toshkent-content,.street-content,.pizzeria-content{
+.nav-tabs li a{
+    color: black;
+    background: #fff;
+    font-family: "Montserat-regular";
+    padding: 5px 15px;
+}
+.nav-tabs .nav-link.active{
     background: #1f2020;
-}
-
-.nikepage-title,.silver-title,.orange-title,.toshkent-title,.street-title,.pizzeria-title{
-    color:#d3a90b;
-}
-.nikepage-button,.silver-button,.orange-button,.toshkent-button,.street-button,.pizzeria-button{
-    background: #d3a90b;
     color: white;
     border: none;
-    border-radius: 15px;
-    padding: 8px 10px;
 }
-.nikepage-button a,.silver-button a,.orange-button a,.toshkent-button a,.street-button a,.pizzeria-button a{
+.nav-tabs .nav-link{
+    border: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 15px;
+}
+.my_works-tab img{
+    width: 550px;
+    height: 400px;
+}
+.my_works-tab h3{
+    color: #d3a90b;
+    font-family: var(--ps);
+    padding-top: 25px;
+    padding-bottom: 16px;
+}
+.my_works-tab p{
     color: var(--white);
-    font-family: 'montserat-bold';
+    margin-bottom: 100px;
+}
+.my_works-detail{
+    color: #fff;
+    font-family: "Montserat-bold";
+    margin-top: 100;
+    padding: 10px 17px;
+    border-radius: 15px;
+    background: #d3a90b;
+}
+.my_works-tab_desc{
+    background: #1f2020;
+    margin-left: 20px;
 }
 .abilities{
     background: #282929;
@@ -249,6 +273,7 @@
     font-family: 'Montserat-regular';
     background: #1f2020;
     border: 2px solid #d3a90b;
+    text-decoration: none;
 }
 .card-header .collapse {
     background: #d3a90b;
@@ -269,4 +294,15 @@ footer .contacts,footer .contacts a{
     padding-top: 40px;
     color: white;
     font-size: 20px;
+}
+
+.abilities button[aria-expanded="true"]{
+    background:#d3a90b;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    text-align: left;
+}
+.card-header{
+    padding: 0;
 }
