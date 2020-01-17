@@ -16,6 +16,9 @@
     width: 100%;
     top: 0;
 }
+.header__nav i::before{
+    color: white;
+}
 .header__menu-link{
     margin-left: 50px;
     text-transform: uppercase;
@@ -98,7 +101,7 @@
     font-size: 28px;
     padding-bottom: 30px;
 }
-.hisotory__desc{
+.history__desc{
     color: var(--white);
     font-size: 18px;
     line-height: 27px;
@@ -211,6 +214,7 @@
 .my_works-tab img{
     width: 550px;
     height: 400px;
+    margin-right: 10px;
 }
 .my_works-tab h3{
     color: #d3a90b;
@@ -218,6 +222,7 @@
     padding-top: 25px;
     padding-bottom: 16px;
 }
+
 .my_works-tab p{
     color: var(--white);
     margin-bottom: 100px;

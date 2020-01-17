@@ -1,0 +1,78 @@
+@media(max-width:1200px){
+    .study__title{
+        text-align: center;
+    }
+    .study__desc{
+        margin: 0 auto;
+        width: 650px;
+    }
+    .my_works-tab img{
+        width: auto;
+    }
+    .my_works-tab_desc{
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .header__menu{
+        display: flex;
+    }
+    .header__content-title{
+        color: var(--white);
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .my_works-tab_desc{
+        text-align: center;
+    }
+}
+
+
+
+
+@media(max-width:535px){
+    .header__menu-link{
+        margin-left: 0px;
+    }
+    .header__menu-link:first-child{
+        margin-right: 20px;
+    }
+    .header-link{
+        margin: 0 auto;
+    }
+    .dropdown-header{
+        padding: 0px;
+    }
+    .header__menu{
+        text-align: center;
+    }
+    .header__content-title{
+        padding-top: 10px;
+    }
+    .hisotory__desc{
+        color: var(--white);
+        font-size: 14px;
+        line-height: 27px;
+        text-align: justify;
+    }
+    
+    .history__title{
+        color: var(--yellow);
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+    .history__desc{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .my_works-tab img{
+       width: 90%;
+       margin-left: 20px;
+    }
+    .my_works-tab_desc{
+        width: 100%;
+    }
+}
